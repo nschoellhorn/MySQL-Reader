@@ -86,7 +86,7 @@ public class ExecutorTask extends Thread
 
 			if (plugin.getConfig().getBoolean(SINGLEUSE))
 			{
-				connector.query("DELETE * FROM " + table + ";"); // Should work now
+				connector.query("DELETE FROM " + table + ";"); // Should work now
 			}
 		}
 		catch (SQLException e)
