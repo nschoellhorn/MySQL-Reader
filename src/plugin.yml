@@ -1,0 +1,5 @@
+name: MySQL-Reader
+author: MrPixelDream
+version: 3.1
+main: de.mrpixeldream.mysqlreader.MySQLReader
+description: Reads commands from a MySQL database
